@@ -354,7 +354,7 @@ btn_Decimal.grid(row=5, column=2, padx=hor_Pad, pady=vert_Pad, sticky="nsew")
 btn_Equal.grid(row=5, column=3, padx=hor_Pad, pady=vert_Pad, sticky="nsew")
 
 # Buttons for numbers from 1 - 9 created using for-loop
-num_List = [[7, 8, 9], [4, 5, 6], [3, 2, 1]]
+num_List = [[7, 8, 9], [4, 5, 6], [1, 2, 3]]
 
 for ii in range(len(num_List)):
     for jj in range(len(num_List[1])):
